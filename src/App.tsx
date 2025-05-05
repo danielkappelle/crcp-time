@@ -87,7 +87,7 @@ export default function App() {
           <span className="font-bold text-3xl">{crcpTime || "00:00"}</span>
         </CardFooter>
       </Card>
-      <GithubCorner href="https://github.com/danielkappelle/crcp-web" />
+      <GithubCorner href="https://github.com/danielkappelle/crcp-time" />
     </>
   );
 }
