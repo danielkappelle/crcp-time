@@ -37,7 +37,7 @@ function calculateCrcpTime(ops: string, totalTimeString: string) {
 
 export default function App() {
   const [operation, setOperation] = useState("3");
-  const [totalFlightTime, setTotalFlightTime] = useState("3");
+  const [totalFlightTime, setTotalFlightTime] = useState("");
 
   const crcpTime = calculateCrcpTime(operation, totalFlightTime);
 
