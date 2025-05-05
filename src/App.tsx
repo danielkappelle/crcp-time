@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -10,10 +9,10 @@ import {
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
 import { Label } from "@/components/ui/label";
-import { Input } from "./components/ui/input";
-import { useEffect, useState } from "react";
-import { InfoCard } from "./Info";
+import { useState } from "react";
 import GithubCorner from "react-github-corner";
+import { Input } from "./components/ui/input";
+import { InfoCard } from "./Info";
 
 function calculateCrcpTime(ops: string, totalTimeString: string) {
   const factor = ops === "3" ? 2 / 3 : 1 / 2;
